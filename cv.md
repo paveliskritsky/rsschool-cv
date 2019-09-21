@@ -50,7 +50,6 @@ I have experience in the field of security.(Access Control System,Fire alarm,sec
     }
     }
 </pre>
-
 ## Skills:
 * Item 1 HTML.
 * Item 2 CSS.
