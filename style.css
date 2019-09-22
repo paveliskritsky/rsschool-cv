@@ -1,0 +1,80 @@
+body {
+    margin-right: auto; 
+    margin-left:  auto; 
+  
+    max-width: 1024px;
+  
+    padding-right: 10px;
+    padding-left:  10px;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+  header {
+    margin: 0,0 ,0,0;
+    position: center;
+    text-align: center; 
+  }
+ 
+  .contacts {
+    display: inline-block;
+    width: 27%;
+    border: 3px solid grey;
+    text-align: left;
+    padding: 5px;
+    list-style-type: none;
+  }
+  .about {
+    position:relative;
+  }
+  .about-skills {
+    float:left;
+    top:0;
+    right:0;
+    width:33%;
+  }
+  .about-skills>h3{
+    margin-top: 0;
+  }
+  .about-text {
+   margin-top: 5px;
+   text-align: left;
+  }
+  
+  div>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about-skills dd {
+    display: inline-block;
+    width: 98%;
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: #e8e8e8;
+}
+  .skill-level{
+      font-size: 12px;
+      text-align: center;
+      color: #ffffff;
+      background-color: #4470c4;
+  }
+  dd{
+    display: block;
+  }
+  .interective-code:target {display: block;}
+  .interective-code{
+    display: none;
+    text-align: left;
+  }
+  .text-example-code{
+    text-decoration: none;
+
+  }
+  .text-example-code:visited{
+    color: black;
+    text-decoration: none;
+  
+  }
+footer {
+  float:bottom;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pavel Iskritsky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div><h1>Pavel Iskritsky</h1></div>
+    </header>
+    <main>
+        <section>
+            <div class="avatar">
+                <img  src="img/5GmebfDmwiY.jpg" width="100" height="100" alt="avatar">
+            </div>
+        </section>
+        <nav>
+            <ul class="contacts">
+                <li>Email: paveliskritsky@yandex.by</a></li>
+                <li>Phone: +375339001200</li>
+                <li>GitHub: <a href="https://github.com/paveliskritsky">paveliskritsky</a></li>
+            </ul>
+        </nav>
+        <section class="about">
+        <h2>About me:</h2>
+            <div class="about-skills">
+            <h3>Skills:</h3>
+            <dt>HTML</dt>
+                <dd>
+                    <div class="skill-level" style="width: 60%;">60%</div>
+                </dd>
+            <dt>CSS</dt>
+                <dd>
+                    <div class="skill-level" style="width: 51%;">51%</div>
+                </dd>
+            <dt>C++</dt>
+                <dd>
+                    <div class="skill-level" style="width: 20%;">20%</div>
+                </dd>
+            </div>    
+            <div class="about-text">
+                <p>I have experience in the field of security.(Access Control System,Fire alarm,security alarm). I have been working in this field for about 2 years.</p>
+                <p>No web development experience. I want to try myself in this area. I'm very interested to figure out how all this works. </p>
+                <p>I took a few courses at HTML Academy. I understand that my knowledge is superficial. I will do my best to become better in this area. </p>
+                <p>I studied as a programmer engineer in Belarusian State Technological University. After passing the first session, I took the documents. Studied C ++.</p>
+            </div>
+        </section>
+        <section >
+                <p><h2><a href="#code">Exemple code</a></h2></p>
+                <a href="#" class="text-example-code">
+                    <div class="interective-code" id="code">
+                    <pre>           #include &#60;iostream&#62;
+            #include &#60;iomanip&#62;
+            using namespace std;
+            void bubbleSort(int *, int);
+            int main(int argc, char* argv[])
+            {
+                setlocale(LC_ALL, "rus");
+                cout << "Введите размер массива: ";
+                int size_array; 
+                cin >> size_array;
+                int *sorted_array = new int [size_array];
+                for (int counter = 0; counter < size_array; counter++)
+                {
+                    sorted_array[counter] = rand() % 100; 
+                    cout << setw(2) << sorted_array[counter] << "  "; 
+                }
+                cout << "\n\n";
+                bubbleSort(sorted_array, size_array); 
+                for (int counter = 0; counter < size_array; counter++)
+                {
+                    cout << setw(2) << sorted_array[counter] << "  "; /
+                }
+                cout << "\n";
+                system("pause");
+                return 0;
+            }
+            void bubbleSort(int* arrayPtr, int length_array) 
+            {
+            int temp = 0; 
+            bool exit = false; 
+            while (!exit)
+            {
+            exit = true;
+            for (int int_counter = 0; int_counter < (length_array - 1); int_counter++)
+                if (arrayPtr[int_counter] > arrayPtr[int_counter + 1]) 
+                {
+                temp = arrayPtr[int_counter];
+                arrayPtr[int_counter] = arrayPtr[int_counter + 1];
+                arrayPtr[int_counter + 1] = temp;
+                exit = false; 
+                }
+            }
+            }
+                </pre> 
+            </div> </a>
+        </section>
+        <h2>Education:</h2>
+        <p>Belarusian National Technical University. Power engineering (20013-2017).</p>
+    </main>
+</body>
+</html>
