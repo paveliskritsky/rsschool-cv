@@ -13,7 +13,7 @@ body {
   header {
     margin: 0,0 ,0,0;
     position: center;
-     text-align: center;
+    text-align: center; 
   }
  
   .contacts {
@@ -33,18 +33,34 @@ body {
     right:0;
     width:33%;
   }
+  .about-skills>h3{
+    margin-top: 0;
+  }
   .about-text {
    margin-top: 5px;
    text-align: left;
   }
+  
   div>p {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .about-skills>ul{
-    list-style-type: none;
+  .about-skills dd {
+    display: inline-block;
+    width: 98%;
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: #e8e8e8;
+}
+  .skill-level{
+      font-size: 12px;
+      text-align: center;
+      color: #ffffff;
+      background-color: #4470c4;
   }
-  
+  dd{
+    display: block;
+  }
   .interective-code:target {display: block;}
   .interective-code{
     display: none;
@@ -59,4 +75,6 @@ body {
     text-decoration: none;
   
   }
-  
+footer {
+  float:bottom;
+}
