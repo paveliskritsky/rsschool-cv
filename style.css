@@ -44,3 +44,19 @@ body {
   .about-skills>ul{
     list-style-type: none;
   }
+  
+  .interective-code:target {display: block;}
+  .interective-code{
+    display: none;
+    text-align: left;
+  }
+  .text-example-code{
+    text-decoration: none;
+
+  }
+  .text-example-code:visited{
+    color: black;
+    text-decoration: none;
+  
+  }
+  
