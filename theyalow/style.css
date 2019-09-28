@@ -2,17 +2,20 @@
         margin: 0 auto;
         max-width: 1024px;
     }
+    /* Обёртка */
     
     .top-section {
         width: 100%;
         height: 560px;
         background: url(img/backgrunds/background-top.png);
     }
+    /* Векхняя часть сайта */
     
     header {
         justify-content: space-between;
         align-items: flex-end;
         display: flex;
+        height: 20%;
     }
     
     .header-name {
@@ -127,10 +130,12 @@
         font-family: "Segoe WP";
         text-align: center;
     }
+    /* Название иконок меню */
     
     .header-nav>nav>div:nth-child(1) p {
         margin: 0% 0% 0% -12%;
     }
+    /* следующие 3 класса отвечают за позиционирование иконок */
     
     .header-nav>nav>div:nth-child(2) p {
         margin: 0% 9% 0% 0%;
@@ -139,6 +144,160 @@
     .header-nav>nav>div:nth-child(3) p {
         margin: 0% 9% 0% 0%;
     }
+    
+    .top-swiper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
+    }
+    /* обёртка для верхнего свайпера */
+    
+    .left-swiper {
+        width: 32px;
+        height: 57px;
+        background-color: #f5c506;
+        position: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* обёртка для левого слайдера */
+    
+    .left-swiper>img {
+        width: 13px;
+        height: 19px;
+        position: 50% 50%;
+    }
+    /* левый свайпер */
+    
+    .right-swiper {
+        width: 32px;
+        height: 57px;
+        background-color: #f5c506;
+        position: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* обёртка правого свайпера */
+    
+    .right-swiper>img {
+        width: 13px;
+        height: 19px;
+        position: 50% 50%;
+    }
+    /* правый свайпер */
+    
+    .swiper-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    /* параметры первого слайдера */
+    
+    .swiper-content>div:first-child {
+        height: 327px;
+        width: 550px;
+        margin: -1% 0% 0% -0.8%;
+        /*позиция видео*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+    }
+    /* Размер блока видео */
+    
+    .swiper-content>div>div {
+        display: flex;
+    }
+    
+    .play {
+        background: url(img/icons/playbg.svg);
+        width: 67px;
+        height: 67px;
+        border-radius: 33px;
+        background-color: #f5c506;
+        opacity: 0.72;
+        display: inline-block;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+    }
+    /* кружок плэй */
+    
+    .play>img {
+        width: 19px;
+        height: 34px;
+    }
+    /* плэй */
+    
+    .nav-video {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        top: 89%;
+    }
+    
+    .small-play {
+        display: flex;
+        background-color: #f5c506;
+        opacity: 0.37;
+        width: 27px;
+        height: 27px;
+        justify-content: center;
+        align-items: center;
+        right: 10%;
+        position: absolute;
+        left: 5.5%;
+    }
+    
+    .process-bar {
+        width: 404px;
+        height: 12px;
+        border-radius: 5px;
+        background-color: #f5c506;
+        opacity: 0.28%;
+        position: absolute;
+        left: 15%;
+    }
+    
+    .video-sound {
+        position: absolute;
+        left: 93.6%;
+    }
+    
+    .swiper-content>div:nth-child(2) {
+        font-size: 63px;
+        letter-spacing: 1px;
+        color: #f5c506;
+        font-family: "Asap";
+        font-weight: 400;
+        text-align: center;
+    }
+    /* текст возле видео */
+    
+    video {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .text-in-swiper>h2>p:first-child {
+        margin-inline-start: 17%;
+        margin-block-start: -10%;
+    }
+    
+    .text-in-swiper>h2>p:last-child {
+        color: #ffffff;
+        margin-top: 3%;
+        margin-inline-start: 11%;
+        white-space: nowrap;
+    }
+    /* Вторая строка */
     
     .links {
         width: 100%;
